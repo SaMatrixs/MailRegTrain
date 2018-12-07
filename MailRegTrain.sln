@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailRegTrain", "MailRegTrain\MailRegTrain.csproj", "{92F9E7B2-2674-48D2-A9B2-D02F2B614ECD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{DF158CBD-A79C-4928-88D5-BD41AECB78A8}"
+	ProjectSection(SolutionItems) = preProject
+		Cooke.cs = Cooke.cs
+		IsBusyCounter.cs = IsBusyCounter.cs
+		POP3.cs = POP3.cs
+		MailRegTrain\Program.cs = MailRegTrain\Program.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
